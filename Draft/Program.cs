@@ -2,6 +2,8 @@
  * Draft
  */
 
+using System.Collections.ObjectModel;
+
 namespace Draft;
 
 class Program
@@ -11,7 +13,7 @@ class Program
         Dictionary<string, byte> ages = new()
         {
             { "Tsvetelin", 25 },
-            { "Svetoslav", 34 }
+            { "Tereza", 32 }
         };
     }
 }
